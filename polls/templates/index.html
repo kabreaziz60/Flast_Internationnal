@@ -57,7 +57,7 @@
           <li><a href="{% url 'index' %}" class="active">Acceuil</a></li>
           <li><a href="{% url 'about' %}">A Propos</a></li>
           <li><a href="{% url 'services' %}">Services</a></li>
-          <li><a href="{% url 'pricing' %}">Boutique</a></li>
+          <!-- <li><a href="{% url 'pricing' %}">Boutique</a></li> -->
           <li class="dropdown"><a href="#"><span>Connexion</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="{% url 'connexion' %}">Se Connecter</a></li>
@@ -66,6 +66,8 @@
           </li>
           <li><a href="{% url 'contact' %}">Contact</a></li>
           <li><a class="get-a-quote" href="{% url 'get_a_quote' %}">Optenir un Devis</a></li>
+          <li><a href="#faq">FAQ</a></li>
+
         </ul>
       </nav><!-- .navbar -->
 
@@ -376,68 +378,6 @@
       </div>
     </section><!-- End Features Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing pt-0">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <span>BOUTIQUE</span>
-          <h2>BOUTIQUE</h2>
-
-        </div>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free Plan</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <a href="#" class="buy-btn">Buy Now</a>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <h3>Business Plan</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="buy-btn">Buy Now</a>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Developer Plan</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="buy-btn">Buy Now</a>
-            </div>
-          </div><!-- End Pricing Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
-
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container">
@@ -447,15 +387,15 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="{% static 'assets/img/kabre.jpg' %}" class="testimonial-img" alt="">
+                <h3>KABRE Abdoul Aziz</h3>
+                <h4>Informaticien</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  Informaticien de formation specialiser dans le Development wep Actuellement en formation a Siras Labs.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -464,14 +404,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="{% static 'assets/img/testimonials/testimonials-2.jpg' %}" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>COMPAORE Souleymane</h3>
+                <h4>DAF à Ouagadougou</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  Informaticien de formation specialiser dans le Development wep Actuellement en formation a Siras Labs.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -480,14 +420,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="{% static 'assets/img/testimonials/testimonials-3.jpg' %}" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>COMPAORE Abdoul Aziz</h3>
+                <h4>Gestionnaire à Paris</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Informaticien de formation specialiser dans le Development wep Actuellement en formation a Siras Labs.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -496,14 +436,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="{% static 'assets/img/testimonials/testimonials-4.jpg' %}" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3>BANDAOGO Masimilien</h3>
+                <h4>Convoyeur</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Informaticien de formation specialiser dans le Development wep Actuellement en formation a Siras Labs.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -512,14 +452,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="{% static 'assets/img/testimonials/testimonials-5.jpg' %}" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <h3>OUEDRAOGO Moussa</h3>
+                <h4>Transitaire</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  Informaticien de formation specialiser dans le Development wep Actuellement en formation a Siras Labs.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -537,8 +477,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <span>Frequently Asked Questions</span>
-          <h2>Frequently Asked Questions</h2>
+          <span>FAQ</span>
+          <h2>FAQ</h2>
 
         </div>
 
@@ -673,7 +613,7 @@
           <a href="{% url 'index' %}" class="logo d-flex align-items-center">
             <span>Flast_International</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Votre partenaire de livraison rapide comme l'éclair dans le Monde.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -688,8 +628,8 @@
             <li><a href="#">Acceuil</a></li>
             <li><a href="{% url 'about' %">A Propos</a></li>
             <li><a href="{% url 'services' %}">Services</a></li>
-            <li><a href="{% url 'service_details' %}">Terms of service</a></li>
-            <li><a href="{% url 'connexion' %}">Privacy policy</a></li>
+            <!-- <li><a href="{% url 'service_details' %}">Terms of service</a></li> -->
+            <!-- <li><a href="{% url 'connexion' %}">Privacy policy</a></li> -->
           </ul>
         </div>
 
@@ -699,8 +639,8 @@
             <li><a href="#">Transport</a></li>
             <li><a href="#">Transit</a></li>
             <li><a href="#">Ventes</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Import Export</a></li>
+            <!-- <li><a href="#">Marketing</a></li> -->
+            <!-- <li><a href="#">Import Export</a></li> -->
           </ul>
         </div>
 

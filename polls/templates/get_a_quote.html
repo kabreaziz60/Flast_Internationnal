@@ -57,7 +57,7 @@
           <li><a href="{% url 'index' %}">Acceuil</a></li>
           <li><a href="{% url 'about' %}">A Propos</a></li>
           <li><a href="{% url 'services' %}">Services</a></li>
-          <li><a href="{% url 'pricing' %}">BOUTIQUE</a></li>
+          <!-- <li><a href="{% url 'pricing' %}">BOUTIQUE</a></li> -->
           <li class="dropdown"><a href="#"><span>Connexion</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="{% url 'connexion' %}">Se Connecter</a></li>
@@ -82,7 +82,7 @@
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
               <h2>DEMANDE DE DEVIS</h2>
-              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <p>Le devis sert à sécuriser la relation commerciale avec le client: lorsque ce dernier a donné son accord pour l'exécution de la prestation, il est engagé sur l'offre qui a été convenue.</p>
             </div>
           </div>
         </div>
@@ -107,20 +107,20 @@
 
           <div class="col-lg-7">
             <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Get a quote</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
+              <h3>DEMANDE DE DEVIS</h3>
+              <p>Pour avoir une idée sur les frais veillez remplir les champs suivants</p>
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="departure" class="form-control" placeholder="City of Departure" required>
+                  <input type="text" name="departure" class="form-control" placeholder="Ville de départ" required>
                 </div>
 
                 <div class="col-md-6">
-                  <input type="text" name="delivery" class="form-control" placeholder="Delivery City" required>
+                  <input type="text" name="delivery" class="form-control" placeholder="Ville de livraison" required>
                 </div>
 
                 <div class="col-md-6">
-                  <input type="text" name="weight" class="form-control" placeholder="Total Weight (kg)" required>
+                  <input type="text" name="weight" class="form-control" placeholder="Poids total (kg)" required>
                 </div>
 
                 <div class="col-md-6">
@@ -128,11 +128,11 @@
                 </div>
 
                 <div class="col-lg-12">
-                  <h4>Your Personal Details</h4>
+                  <h4>Vos informations personnelles</h4>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required>
+                  <input type="text" name="name" class="form-control" placeholder="Nom" required>
                 </div>
 
                 <div class="col-md-12 ">
@@ -140,7 +140,7 @@
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+                  <input type="text" class="form-control" name="phone" placeholder="Telephone" required>
                 </div>
 
                 <div class="col-md-12">
@@ -148,11 +148,11 @@
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
+                  <div class="loading">Chargement</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+                  <div class="sent-message">Votre demande de devis a été envoyée avec succès. Merci!</div>
 
-                  <button type="submit">Get a quote</button>
+                  <button type="submit">Obtenir un devis</button>
                 </div>
 
               </div>
