@@ -55,7 +55,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="{% url 'index' %}">Acceuil</a></li>
-          <li><a href="{% url 'about' %}}">A Propos</a></li>
+          <li><a href="{% url 'about' %}">A Propos</a></li>
           <li><a href="{% url 'services' %}">Services</a></li>
           <!-- <li><a href="{ % url 'pricing' %}">BOUTIQUE</a></li> -->
           <li class="dropdown"><a href="#"><span>Connexion</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -98,30 +98,78 @@
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Service Details Section ======= -->
-    <section id="service-details" class="service-details">
+    <section id="service-details1" class="service-details">
       <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
 
           <div class="col-lg-4">
             <div class="services-list">
-              <a href="#" class="active">Storage</a>
-              <a href="#">Logistics</a>
-              <a href="#">Cargo</a>
-              <a href="#">Trucking</a>
-              <a href="#">Packaging</a>
-              <a href="#">Warehousing</a>
+              <a href="#service-details1" class="active">Livraison Express</a>
+              <a href="#service-details2">Livraisonde Logistics</a>
+              <a href="#service-details3">Livraison Maritime</a>
+              <a href="#service-details4">Transit</a>
+              <a href="#service-details5">Emballage</a>
+              <a href="#service-details6">Stockage</a>
             </div>
 
-            <h4>Enim qui eos rerum in delectus</h4>
-            <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+
+            <h4>Livraison Express</h4>
+            <p>Comme son nom l’indique la livraison express est un mode d’expédition très rapide. Cette prestation concerne l’envoie de plis, de colis, de palettes ou de tout autre marchandise en urgence.  En effet, Flast_International vous propose une solution alliant fiabilité et rapidité.</p>
           </div>
 
           <div class="col-lg-8">
-            <img src="{% static 'assets/img/service-details.jpg' %}" alt="" class="img-fluid services-img">
+            <img src="{% static 'assets/img/service-details1.jpg' %}" alt="" class="img-fluid services-img">
+            <h3>Resevez vos colis provenant des USA et de la france en un temps record 72H</h3>
+            <p>
+              Besoin d’expédier en express vos colis vers l’international ? Flast_International vous fait bénéficier d’une livraison express de vos colis vers 140 destinations
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Les Expeditions sons par voix aérienne.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Au moins un vol part jour vers le Burkina Faso , la CI , le TOGO etc.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Les frais sont d'environs 13€ et 15$ US </span></li>
+            </ul>
+            <p>
+              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+            </p>
+            <p>
+              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+            </p>
+            <a href="{% url 'service_details' %}" class="readmore stretched-link"><span>Evoyer votre colis</span><i class="bi bi-arrow-right"></i></a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Service Details Section -->
+
+
+    <section id="service-details2" class="service-details">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="services-list">
+              <a href="#service-details1" class="active">Livraison Express</a>
+              <a href="#service-details2">Livraisonde Logistics</a>
+              <a href="#service-details3">Livraison Maritime</a>
+              <a href="#service-details4">Transit</a>
+              <a href="#service-details5">Emballage</a>
+              <a href="#service-details6">Stockage</a>
+            </div>
+
+
+            <h4>Livraisonde Logistics</h4>
+            <p>Comme son nom l’indique la livraison express est un mode d’expédition très rapide. Cette prestation concerne l’envoie de plis, de colis, de palettes ou de tout autre marchandise en urgence.  En effet, Flast_International vous propose une solution alliant fiabilité et rapidité.</p>
+          </div>
+
+          <div class="col-lg-8">
+            <img src="{% static 'assets/img/logistics-service.jpg' %}" alt="" class="img-fluid services-img">
             <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
             <p>
-              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
+              Besoin d’expédier  vos marchandise ou logistigue vers l’international ? Flast_International vous fait bénéficier d’une livraison  de vos vos marchandise (par aérienet, maritime,terestre ou ferroviaire)  vers 140 destinations
             </p>
             <ul>
               <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
@@ -134,6 +182,7 @@
             <p>
               Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
             </p>
+            <a href="{% url 'service_details' %}" class="readmore stretched-link"><span>Evoyer de logistique</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
         </div>
@@ -141,78 +190,260 @@
       </div>
     </section><!-- End Service Details Section -->
 
-  </main><!-- End #main -->
+    <section id="service-details3" class="service-details">
+      <div class="container" data-aos="fade-up">
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+        <div class="row gy-4">
 
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span>Logis</span>
-          </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-          <div class="social-links d-flex mt-4">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <div class="col-lg-4">
+            <div class="services-list">
+              <a href="#service-details1" class="active">Livraison Express</a>
+              <a href="#service-details2">Livraisonde Logistics</a>
+              <a href="#service-details3">Livraison Maritime</a>
+              <a href="#service-details4">Transit</a>
+              <a href="#service-details5">Emballage</a>
+              <a href="#service-details6">Stockage</a>
+            </div>
+
+
+            <h4>Livraison Maritime</h4>
+            <p>Comme son nom l’indique la livraison express est un mode d’expédition très rapide. Cette prestation concerne l’envoie de plis, de colis, de palettes ou de tout autre marchandise en urgence.  En effet, Flast_International vous propose une solution alliant fiabilité et rapidité.</p>
           </div>
-        </div>
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
-          </p>
+          <div class="col-lg-8">
+            <img src="{% static 'assets/img/cargo-service.jpg' %}" alt="" class="img-fluid services-img">
+            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
+            <p>
+              Besoin d’expédier par bateaux vos colis vers l’international ? Flast_International vous fait bénéficier d’une livraison Maritime de vos colis vers 12 Africaine
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+            </ul>
+            <p>
+              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+            </p>
+            <p>
+              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+            </p>
+            <a href="{% url 'service_details' %}" class="readmore stretched-link"><span>Evoyer votre colis par bateaux</span><i class="bi bi-arrow-right"></i></a>
+          </div>
 
         </div>
 
       </div>
+    </section><!-- End Service Details Section -->
+
+
+    <section id="service-details4" class="service-details">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="services-list">
+              <a href="#service-details1" class="active">Livraison Express</a>
+              <a href="#service-details2">Livraisonde Logistics</a>
+              <a href="#service-details3">Livraison Maritime</a>
+              <a href="#service-details4">Transit</a>
+              <a href="#service-details5">Emballage</a>
+              <a href="#service-details6">Stockage</a>
+            </div>
+
+
+            <h4>Transit</h4>
+            <p>Comme son nom l’indique la livraison express est un mode d’expédition très rapide. Cette prestation concerne l’envoie de plis, de colis, de palettes ou de tout autre marchandise en urgence.  En effet, Flast_International vous propose une solution alliant fiabilité et rapidité.</p>
+          </div>
+
+          <div class="col-lg-8">
+            <img src="{% static 'assets/img/trucking-service.jpg' %}" alt="" class="img-fluid services-img">
+            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
+            <p>
+              Besoin de faire transité vos marchandise a l’international ? Flast_International vous fait bénéficier d’une Transit vers l'Afrique.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+            </ul>
+            <p>
+              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+            </p>
+            <p>
+              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+            </p>
+            <a href="{% url 'service_details' %}" class="readmore stretched-link"><span>Optenir un service de transition</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Service Details Section -->
+
+    <section id="service-details5" class="service-details">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="services-list">
+              <a href="#service-details1" class="active">Livraison Express</a>
+              <a href="#service-details2">Livraisonde Logistics</a>
+              <a href="#service-details3">Livraison Maritime</a>
+              <a href="#service-details4">Transit</a>
+              <a href="#service-details5">Emballage</a>
+              <a href="#service-details6">Stockage</a>
+            </div>
+
+            <h4>Emballage</h4>
+            <p>Comme son nom l’indique la livraison express est un mode d’expédition très rapide. Cette prestation concerne l’envoie de plis, de colis, de palettes ou de tout autre marchandise en urgence.  En effet, Flast_International vous propose une solution alliant fiabilité et rapidité.</p>
+          </div>
+
+          <div class="col-lg-8">
+            <img src="{% static 'assets/img/packaging-service.jpg' %}" alt="" class="img-fluid services-img">
+            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
+            <p>
+              Besoin d’un emballage tout-inclus pour expédier rapidement ? Flast_International vous propose des formats d’emballages Prêt-à-Expédier
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+            </ul>
+            <p>
+              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+            </p>
+            <p>
+              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+            </p>
+            <a href="{% url 'service_details' %}" class="readmore stretched-link"><span>Besoin d'emballage</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Service Details Section -->
+   
+
+    <section id="service-details6" class="service-details">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="services-list">
+              <a href="#service-details1" class="active">Livraison Express</a>
+              <a href="#service-details2">Livraisonde Logistics</a>
+              <a href="#service-details3">Livraison Maritime</a>
+              <a href="#service-details4">Transit</a>
+              <a href="#service-details5">Emballage</a>
+              <a href="#service-details6">Stockage</a>
+            </div>
+
+            <h4>Stockage</h4>
+            <p>Comme son nom l’indique la livraison express est un mode d’expédition très rapide. Cette prestation concerne l’envoie de plis, de colis, de palettes ou de tout autre marchandise en urgence.  En effet, Flast_International vous propose une solution alliant fiabilité et rapidité.</p>
+          </div>
+
+          <div class="col-lg-8">
+            <img src="{% static 'assets/img/warehousing-service.jpg' %}" alt="" class="img-fluid services-img">
+            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
+            <p>
+              Besoin d’entrepots pour du des marchandise ppour un bout de temps en France , USA ? Flast_International met a votre disposition des entrepos sécurisés
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+            </ul>
+            <p>
+              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+            </p>
+            <p>
+              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+            </p>
+            <a href="{% url 'service_details' %}" class="readmore stretched-link"><span>Reserver un entrepos</span><i class="bi bi-arrow-right"></i></a>        
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Service Details Section -->
+   
+   
+  
+  </main><!-- End #main -->
+ <!-- ======= Footer ======= -->
+ <footer id="footer" class="footer">
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-5 col-md-12 footer-info">
+        <a href="{% url 'index' %}" class="logo d-flex align-items-center">
+          <span>Flast_International</span>
+        </a>
+        <p>Votre partenaire de livraison rapide comme l'éclair dans le Monde.</p>
+        <div class="social-links d-flex mt-4">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Lien Utiles</h4>
+        <ul>
+          <li><a href="#">Acceuil</a></li>
+          <li><a href="{% url 'about' %">A Propos</a></li>
+          <li><a href="{% url 'services' %}">Services</a></li>
+          <!-- <li><a href="{% url 'service_details' %}">Terms of service</a></li> -->
+          <!-- <li><a href="{% url 'connexion' %}">Privacy policy</a></li> -->
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Nos Services</h4>
+        <ul>
+          <li><a href="#">Transport</a></li>
+          <li><a href="#">Transit</a></li>
+          <li><a href="#">Ventes</a></li>
+          <!-- <li><a href="#">Marketing</a></li> -->
+          <!-- <li><a href="#">Import Export</a></li> -->
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <h4>Coordonnées</h4>
+        <p>
+          0314 Ouaga 2000 <br>
+          Ouagadougou, Secteur 24<br>
+          Burkina Faso <br><br>
+          <strong>Burkina:</strong> +226 6000 4381 <br>
+          <strong>France:</strong> +1 64 1199 4381 <br>
+          <strong>USA:</strong> +33 6411 9947 4381 <br>
+          <strong>Email:</strong> kabreaziz60@gmail.com<br>
+        </p>
+      </div>
+
     </div>
+  </div>
 
-    <div class="container mt-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Logis</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+  <div class="container mt-4">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Flast_International</span></strong>. All Rights Reserved
     </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </div>
 
-  </footer><!-- End Footer -->
-  <!-- End Footer -->
+</footer><!-- End Footer -->
+<!-- End Footer -->
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

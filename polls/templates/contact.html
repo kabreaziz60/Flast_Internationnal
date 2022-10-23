@@ -167,16 +167,16 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+   <!-- ======= Footer ======= -->
+   <footer id="footer" class="footer">
 
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span>Logis</span>
+          <a href="{% url 'index' %}" class="logo d-flex align-items-center">
+            <span>Flast_International</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Votre partenaire de livraison rapide comme l'éclair dans le Monde.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -186,37 +186,38 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Lien Utiles</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Acceuil</a></li>
+            <li><a href="{% url 'about' %">A Propos</a></li>
+            <li><a href="{% url 'services' %}">Services</a></li>
+            <!-- <li><a href="{% url 'service_details' %}">Terms of service</a></li> -->
+            <!-- <li><a href="{% url 'connexion' %}">Privacy policy</a></li> -->
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
+          <h4>Nos Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Transport</a></li>
+            <li><a href="#">Transit</a></li>
+            <li><a href="#">Ventes</a></li>
+            <!-- <li><a href="#">Marketing</a></li> -->
+            <!-- <li><a href="#">Import Export</a></li> -->
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
+          <h4>Coordonnées</h4>
           <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
+            0314 Ouaga 2000 <br>
+            Ouagadougou, Secteur 24<br>
+            Burkina Faso <br><br>
+            <strong>Burkina:</strong> +226 6000 4381 <br>
+            <strong>France:</strong> +1 64 1199 4381 <br>
+            <strong>USA:</strong> +33 6411 9947 4381 <br>
+            <strong>Email:</strong> kabreaziz60@gmail.com<br>
           </p>
-
         </div>
 
       </div>
@@ -224,7 +225,7 @@
 
     <div class="container mt-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Logis</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Flast_International</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
