@@ -1,1 +1,1 @@
-web: gunicorn Flast_Internationnal.wsgi
+web:gunicorn Flast_Internationnal.wsgi
