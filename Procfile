@@ -1,1 +1,1 @@
-wep: gunicorn Flast_Internationnal.wsgi
+wep: gunicorn app:app
