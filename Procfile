@@ -1,1 +1,1 @@
-wep: gunicorn polls:application
+web: gunicorn Flast_Internationnal.wsgi
